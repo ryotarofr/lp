@@ -13,9 +13,9 @@ function Main() {
           <div className='grid text-center pt-3'>
             <h2 className='py-6 text-gray-800'>suppurt the FRsite</h2>
             <p className='pb-4 font-bold text-lg'>¥500/月</p>
-            <a href='/' className='mx-7 py-2 border rounded-lg bg-cyan-600 hover:bg-cyan-800'>
+            <form action="/api/checkout_sessions" method="POST" className='mx-7 py-2 border rounded-lg bg-cyan-600 hover:bg-cyan-800'>
               <button className='text-white'>参加する</button>
-            </a>
+            </form>
           </div>
           <h2 className='text-gray-600 text-md mt-3 ml-2'>サポート内容</h2>
           <div>
