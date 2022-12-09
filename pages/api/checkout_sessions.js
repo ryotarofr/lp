@@ -1,5 +1,5 @@
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
-const YOUR_DOMAIN = "https://github.com/ryotarofr";
+const YOUR_DOMAIN = "https://astro-blog-chi.vercel.app/";
 export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
