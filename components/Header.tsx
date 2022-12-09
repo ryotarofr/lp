@@ -8,12 +8,10 @@ import CoverImage from "../public/images/coverImage.png"
 
 
 
-type Props = {
-  cssStyle: StyleType
-}
 
-function Header(props: Props) {
-  const { cssStyle } = props
+
+function Header() {
+
 
   const typing = keyframes`
   from{width: 0;} 
@@ -51,7 +49,7 @@ function Header(props: Props) {
     right: auto;
     bottom: auto;
     
-    ${cssStyle}
+   
   `
 
 
